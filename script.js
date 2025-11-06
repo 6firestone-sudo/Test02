@@ -121,7 +121,7 @@ document.addEventListener("DOMContentLoaded", function() {
       // Replace YOUR IDs with actual EmailJS IDs
       const response = await emailjs.send(
         'HMVWORLD_service',
-        'Contactus', 'auto-replay',
+        'Contactus',
         {
           to_email: 'HMVworld@outlook.com',
           from_name: `${data.first_name} ${data.last_name}`,
@@ -162,6 +162,7 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
 });
+
 
 
 
