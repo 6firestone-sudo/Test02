@@ -129,6 +129,7 @@ document.addEventListener("DOMContentLoaded", function() {
           company_name: data.company_name || 'N/A',
           contact: `${data.country_code} ${data.contact_number}`,
           email: data.email,
+          website:data.website,
           product: data.product_req,
           product_type: data.product_type || 'N/A',
           requirements: data.exact_req || 'N/A',
@@ -161,5 +162,6 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
 });
+
 
 
